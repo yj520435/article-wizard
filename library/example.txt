@@ -1,0 +1,53 @@
+# Example Text 😎
+
+---
+
+## Emphasis
+
+Bold text is primarily used to **emphasize** specific words, phrases, etc.
+
+Italics are used *to differentiate* text from the surrounding standard typeface.
+
+Using highlight to draw ==attention to key information==, making it easier to find.
+
+~~ignore this strikethrough~~
+
+## Blockquotes
+
+> Lorem ipsum, placeholder or dummy text used in typesetting and graphic design for previewing layouts. It features scrambled Latin text, which emphasizes the design over content of the layout.
+
+## Lists
+
+* Pick up laundry
+  * Or take out the trash
+* Set new agenda items
+  * Review the previous project
+    * Try to fix bugs
+* Do something
+
+1. start: Runs the app in the development mode.
+2. test: Launches the test runner in the interactive watch mode.
+3. build: Builds the app for production.
+
+## Code
+
+Use `backtick` to write `inline code`.
+
+```js
+function createElement(name, value) {
+  const element = document.createElement(name);
+  element.innerHTML = value;
+
+  return element;
+}
+
+const code = create('code', '1 + 2');
+```
+
+## Links
+
+[link](http://naver.com)
+
+## Images
+
+![image](https://cdn.pixabay.com/photo/2015/05/31/14/23/new-year-background-791939_1280.jpg)

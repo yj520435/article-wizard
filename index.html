@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Article Wizard</title>
+  </head>
+  <body>
+    <div id="base" class="html">
+      <section class="top">
+        <main>
+          <aside>
+            <h1>Article Wizard</h1>
+            <p>
+              This is an editor that converts markdown text into html elements.<br />
+              It supports general markdown grammar and is being updated constantly for
+              more features.<br />
+              Referred to how the Notion editor works. Just try it!
+            </p>
+            <button onclick="fetchExample()">Show Example</button>
+            <ul>
+              <li>2025-08-11 change blockquote</li>
+              <li>2025-08-04 update nested list searching logic</li>
+              <li>2025-07-09 add regex for image</li>
+              <li>2025-06-21 set zero-width-space to inline level elements</li>
+            </ul>
+          </aside>
+          <article id="article" contenteditable="true">
+            <p></p>
+          </article>
+          <textarea id="textarea"></textarea>
+        </main>
+      </section>
+      <section class="bottom">
+        <menu>
+          <li class="github">
+            <button
+              class="btn"
+              onclick="window.open('http://github.com/yj520435/article-wizard')"
+            ></button>
+            <span>Github</span>
+          </li>
+          <li class="switch">
+            <button class="btn" onclick="switchMode()"></button>
+            <span>Switch</span>
+          </li>
+          <li class="contact">
+            <button
+              class="btn"
+              onclick="location.href = 'mailto:yj520435@gmail.com'"
+            ></button>
+            <span>Contact</span>
+          </li>
+        </menu>
+      </section>
+    </div>
+    <script src="library//article-wizard.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
